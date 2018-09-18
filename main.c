@@ -101,7 +101,7 @@ t_all	*init_stuff(void)
 	al_convert_mask_to_alpha(e->filler, al_map_rgb(0, 0, 225));
 	e->text_c =  al_map_rgb(35, 141, 250);
 	al_register_event_source(e->ev_queue,
-							al_get_display_event_source(e->display));
+	al_get_display_event_source(e->display));
 	al_register_event_source(e->ev_queue, al_get_keyboard_event_source());
 	return (e);
 }
