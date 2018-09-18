@@ -1,0 +1,11 @@
+#!/bin/bash
+
+gcc -Wall -Wextra -Werror -I allegro/include -L allegro/lib -lallegro.5.2.4 -lallegro.5.2 \
+-lallegro -lallegro_acodec.5.2.4 -lallegro_acodec.5.2 -lallegro_acodec -lallegro_audio.5.2.4 \
+-lallegro_audio.5.2 -lallegro_audio -lallegro_color.5.2.4 -lallegro_color.5.2 \
+-lallegro_color -lallegro_dialog.5.2.4 -lallegro_dialog.5.2 -lallegro_dialog \
+-lallegro_font.5.2.4 -lallegro_font.5.2 -lallegro_font -lallegro_image.5.2.4 \
+-lallegro_image.5.2 -lallegro_image -lallegro_main.5.2.4 -lallegro_main.5.2 -lallegro_main -lallegro_memfile.5.2.4 \
+-lallegro_memfile.5.2 -lallegro_memfile -lallegro_physfs.5.2.4 -lallegro_physfs.5.2 -lallegro_physfs -lallegro_primitives.5.2.4 \
+-lallegro_primitives.5.2 -lallegro_primitives -lallegro_ttf.5.2.4 -lallegro_ttf.5.2 -lallegro_ttf \
+-lallegro_video.5.2.4 -lallegro_video.5.2 -lallegro_video $@
